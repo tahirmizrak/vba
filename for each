@@ -1,0 +1,7 @@
+For Each kullanici_adi In Kullanici.Range("B2:B10")
+        If kullanici_adi = yeni.TextBox1.Text Then
+        bulamadi = True    
+		msgbox "Kayıtlı Kullanıcı Adı !!!"
+		exit sub
+        End If
+next
